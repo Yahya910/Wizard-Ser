@@ -23,11 +23,6 @@
 
 [`Click Here For Tutorial`](https://youtu.be/5shzvYdTasw)
 
-----------
-
-<p align="center">
-  <a href="https://youtu.be/5shzvYdTasw"><img src="https://i.imgur.com/XkDscpl.jpeg" />
-</p>
 
 -------
 
