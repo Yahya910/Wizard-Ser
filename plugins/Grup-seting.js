@@ -12,15 +12,15 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	}[(args[0] || '')]
 	if (isClose === undefined) {
 		await conn.send2Button(m.chat, `
-Example:
-${usedPrefix + command} close
-${usedPrefix + command} open
-	`.trim(), watermark, 'Open', ',grup 1', 'Close', ',grup 0')
+مثال:
+${usedPrefix + command} m7lol
+${usedPrefix + command} msdod
+	`.trim(), watermark, 'm7lol', ',grup 1', 'msdod', ',grup 0')
 		throw false
 	}
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
-handler.help = ['grup <close/open>']
+handler.help = ['grup <msdod/m7lol>']
 handler.tags = ['group']
 handler.command = /^(gro?up)$/i
 handler.owner = false
